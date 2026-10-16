@@ -6,7 +6,7 @@ int main() {
     if (distance <= 0 || order_value < 0) 
         printf("INVALID\n");
      else if (order_value >= 500000 && distance <= 15) 
-        printf("mien phi giao hang\n");
+        printf("0\n");
      else if (distance >= 1 && distance <= 5) 
         printf("15000\n");
      else if (distance >= 6 && distance <= 15) 
