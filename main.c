@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 int main() {
   int distance, order_value;
-    
     if (scanf("%d %d", &distance, &order_value) != 2) 
         printf("INVALID\n");
-        
     if (distance <= 0 || order_value < 0) 
         printf("INVALID\n");
      else if (order_value >= 500000 && distance <= 15) 
