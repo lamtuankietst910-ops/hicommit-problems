@@ -2,7 +2,6 @@
 
 int main() {
   int code;
-  printf("\nnhap so nguyen:");
   scanf("%d",&code);
   switch(code)
     {
