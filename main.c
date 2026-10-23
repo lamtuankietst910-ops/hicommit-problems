@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float w,h;
+  double w,h;
   scanf("%f",&w);
   scanf("%f",&h);
   float BMI;
