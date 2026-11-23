@@ -42,6 +42,16 @@ int main() {
         printf("INVALID");
       }
     }
+    else
+      if(d<=28)
+        {
+        printf("VALID");
+        }
+        else 
+        {
+          printf("INVALID");
+        }
+      }
   }
   return 0;
 }
