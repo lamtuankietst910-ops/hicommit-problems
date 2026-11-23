@@ -4,7 +4,7 @@ int main() {
   float gpa, min;
   int abs;
   scanf("%f","%f","%d, &gpa, &min, &abs");
-  if(abs>3)
+  if(abs > 3)
   {
     printf("FAIL_ATTENDANCE");
   }
@@ -12,15 +12,15 @@ int main() {
   {
     printf("FAIL_SUBJECT");
   }
-  else if(gpa>=8.0 && min>=7.0)
+  else if(gpa >= 8.0 && min >= 7.0)
   {
     printf("EXCELLENT");
   }
-  else if(gpa>=6.5 && min>=5.0)
+  else if(gpa >= 6.5 && min >= 5.0)
   {
     printf("GOOD");
   }
-  else if(gpa>=5.0 && min>=4.0)
+  else if(gpa >= 5.0 && min >= 4.0)
   {
     printf("PASS");
   }
