@@ -14,7 +14,7 @@ int main() {
   }
   else
   {
-  t = 1 * 15000 + 4 * 13000 + (d -5) * 1100
+  t = 1 * 15000 + 4 * 13000 + (d -5) * 1100;
   }
   printf("\n%ld",(long int)t);
   return 0;
