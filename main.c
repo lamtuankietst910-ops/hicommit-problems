@@ -1,11 +1,17 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  double d;
+  int t;
+  scanf("%d",&d)
+  if (d < 1 && d = 1)
+    t = d * 15000;
+    printf("\n",t);
+  else if (d > 1 && d < 5 && d = 5)
+    t = 1 * 15000 = (d - 1) * 13000;
+  printf("\n",t);
+  else(d > 5 )
+  t = 1 * 15000 + 4 * 13000 + (d − 5) * 1100
+  printf("\n",t)
+  return 0;
 }
