@@ -1,23 +1,22 @@
 #include <stdio.h>
 
 int main() {
-  double d;
-  int t;
+  double d, t;
   scanf("%lf",&d);
   if (d <=1)
   {
     t = d * 15000;
-    printf("\n%lf",t);
+    printf("\n%ld",(long int)t);
   }
   else if (1<d<=5)
   {
     t = 1 * 15000 + (d - 1) * 13000;
-  printf("\n%lf",t);
+  printf("\n%ld",(long int)t);
   }
   else
   {
   t = 1 * 15000 + 4 * 13000 + (d -5) * 1100;
-  printf("\n%lf",t);
+  printf("\n%ld",(long int)t);
   }
   return 0;
 }
