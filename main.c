@@ -42,7 +42,7 @@ int main() {
         printf("INVALID");
       }
     }
-    else
+    else{
       if(d<=28)
         {
         printf("VALID");
